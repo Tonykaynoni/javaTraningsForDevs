@@ -20,7 +20,12 @@ public class Main {
 
             System.out.println();
             UsingMap myMap = new UsingMap();
-            myMap.showA();
+        System.out.println("Learner Check");
+            myMap.checkProduct("Beans");
+
+        System.out.println();
+        System.out.println("Advance Check");
+            myMap.advanceCheck("Beans");
 
 
     }
