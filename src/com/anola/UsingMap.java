@@ -4,7 +4,7 @@ import java.util.Map;
 
 public class UsingMap {
     // global variable
-    int a;
+   Map<String, Boolean> store;
 
     //constructor
     public UsingMap(){
@@ -13,14 +13,16 @@ public class UsingMap {
     }
 
     public void addItemsToStore(){
-        // assigning value to a
-       a = 2;
+        // assigning value to store
+        store  = new HashMap<String, Boolean>();
+        store.put("AppleWatch", true);
+        store.put("Tv", true);
+        store.put("Game", true);
+        store.put("Fan", false);
+        store.put("Chair", false);
+
     }
 
-   public void showA(){
-        //display a`
-       System.out.println("A =" + a);
-   }
 
 
 }
